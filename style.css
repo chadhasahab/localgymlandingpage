@@ -1,0 +1,124 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    background-size: cover;
+    background: url('https://cdn.pixabay.com/photo/2016/11/22/22/25/abs-1850926_960_720.jpg');
+}
+
+.left {
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    display: inline-block;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 60px;
+    filter: invert(1);
+}
+
+.left div {
+    text-align: center;
+    position: relative;
+    top: -64px;
+    left: 64px;
+    font-size: 25px;
+}
+
+.left div>span {
+    display: block;
+    line-height: 5px;
+    font-size: 20px;
+    letter-spacing: 8px;
+}
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 35%;
+    margin: 20px auto;
+}
+
+.navbar {
+    padding-inline-start: 20px;
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    position: relative;
+    transition: all ease-in-out .4s;
+}
+
+.navbar li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px 15px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    padding: 4px 15px;
+    transition: all ease-in-out .4s;
+    border-top: 1px solid cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+    color: cornflowerblue;
+}
+
+.right {
+    position: absolute;
+    top: 29px;
+    right: 34px;
+    display: inline-block;
+    /* border: 1px solid yellow; */
+}
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: #fff;
+    background-color: black;
+    margin: 0px 9px;
+    padding: 5px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid grey;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    width: 40%;
+    margin: 105px 80px;
+    padding: 75px;
+    border-radius: 26px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 1px;
+    width: 508px;
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+.container button {
+    display: block;
+    margin: 10px auto;
+    font-size: 15px;
+    font-weight: bolder;
+    width: 95%;
+}
